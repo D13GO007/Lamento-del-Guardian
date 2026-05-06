@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Lamento del Guardian.sln"
+    "dotnet.defaultSolution": "Lamento del Guardian.slnx"
 }
