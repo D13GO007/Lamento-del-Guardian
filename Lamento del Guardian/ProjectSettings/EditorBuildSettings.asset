@@ -18,8 +18,17 @@ EditorBuildSettings:
     path: Assets/ThunderWire Studio/UHFPS/_Demo/Scenes/Playground.unity
     guid: 6642b7a0095eb5f4bb12469d77329490
   - enabled: 1
-    path: Assets/ThunderWire Studio/UHFPS/_Demo/Scenes/Raining.unity
+    path: Assets/ThunderWire Studio/UHFPS/_Demo/Scenes/Rdemo.unity
     guid: 5d02e5420369bbe42bc168890153f297
+  - enabled: 1
+    path: Assets/Scenes/Escena 1.unity
+    guid: 4498caa254b633c4db72c3a929194d9c
+  - enabled: 1
+    path: Assets/Scenes/Raining.unity
+    guid: 2325c12b35786614aaebfc1ede93917f
+  - enabled: 1
+    path: Assets/Scenes/Escena2.unity
+    guid: 271b704ad3bc2e94da2a7f67e47dbe63
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: ce68c4c37abec5347801e4204a280574,
       type: 2}
