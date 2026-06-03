@@ -1,3 +1,4 @@
+# Unity generated
 Library/
 Temp/
 Obj/
@@ -5,5 +6,60 @@ Build/
 Builds/
 Logs/
 UserSettings/
+MemoryCaptures/
+
+# Unity asset meta files (keep these)
+# *.meta
+
+# Visual Studio / Rider
 *.csproj
 *.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# JetBrains
+.idea/
+*.DotSettings.user
+
+# Crash reports
+sysinfo.txt
+crashlytics-build.properties
+
+# Large binary files already in Assets
+# (opcional - descomenta si necesitas)
+# *.ttf
+# *.otf
+
+# Runtime save data (generado por el juego, no es parte del proyecto)
+**/Assets/Data/SavedGame/
+**/Assets/Data/SavedGame.meta
+
+# Archivos comprimidos de assets (binarios grandes, no necesarios en git)
+*.rar
+*.rar.meta
+
+# Claude Code (configuracion personal del desarrollador)
+.claude/
+
+# Archivos temporales de analisis
+estructura.txt
