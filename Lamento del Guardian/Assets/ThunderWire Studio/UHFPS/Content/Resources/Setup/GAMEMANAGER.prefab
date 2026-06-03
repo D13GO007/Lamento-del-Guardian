@@ -38951,7 +38951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LocalizationTable: {fileID: 11400000, guid: 3505067cde0505644bfc3c7d7e7ed099, type: 2}
-  DefaultLanguage: 0
+  DefaultLanguage: 1
   ShowWarnings: 1
 --- !u!114 &5044176107723305542
 MonoBehaviour:

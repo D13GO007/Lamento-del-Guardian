@@ -6295,120 +6295,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1 &104351115
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 104351119}
-  - component: {fileID: 104351118}
-  - component: {fileID: 104351117}
-  - component: {fileID: 104351116}
-  m_Layer: 0
-  m_Name: Door_ElevatorLevel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &104351116
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 104351115}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6360558719573625917, guid: 395b3f9b5107d154d8e9dae057b01c73, type: 3}
---- !u!23 &104351117
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 104351115}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 4294967293
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ad3c6d6781ebe0d49a315d40f4eafeec, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &104351118
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 104351115}
-  m_Mesh: {fileID: -6360558719573625917, guid: 395b3f9b5107d154d8e9dae057b01c73, type: 3}
---- !u!4 &104351119
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 104351115}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25, y: 0, z: 1.17}
-  m_LocalScale: {x: -1.1999999, y: 1.1999999, z: 1.1999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1007290251}
-  m_Father: {fileID: 1127595689}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &105428169
 GameObject:
   m_ObjectHideFlags: 0
@@ -7761,96 +7647,6 @@ Transform:
   - {fileID: 1544132047}
   m_Father: {fileID: 528172355}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &140235729
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 140235730}
-  - component: {fileID: 140235732}
-  - component: {fileID: 140235731}
-  m_Layer: 6
-  m_Name: Handle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &140235730
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 140235729}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8527435, y: 0.05914001, z: -0.008630485}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1007290251}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &140235731
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 140235729}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 4294967293
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ad3c6d6781ebe0d49a315d40f4eafeec, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &140235732
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 140235729}
-  m_Mesh: {fileID: -6659003102834268097, guid: 395b3f9b5107d154d8e9dae057b01c73, type: 3}
 --- !u!1 &141368248
 GameObject:
   m_ObjectHideFlags: 0
@@ -10924,7 +10720,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -10949,7 +10757,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -11261,97 +11069,6 @@ Transform:
   - {fileID: 402041901}
   m_Father: {fileID: 763296163}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &207074270
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 207074271}
-  - component: {fileID: 207074273}
-  - component: {fileID: 207074272}
-  m_Layer: 6
-  m_Name: LockBody
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &207074271
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207074270}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.00000056425995, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.85303694, y: -0.0845, z: -0.0055}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1208460105}
-  m_Father: {fileID: 1007290251}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &207074272
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207074270}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 4294967293
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ad3c6d6781ebe0d49a315d40f4eafeec, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &207074273
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207074270}
-  m_Mesh: {fileID: 2873273236562491978, guid: 395b3f9b5107d154d8e9dae057b01c73, type: 3}
 --- !u!1 &207693109
 GameObject:
   m_ObjectHideFlags: 0
@@ -11450,7 +11167,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -11475,7 +11204,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -12396,7 +12125,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -12421,7 +12162,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -12644,7 +12385,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -12669,7 +12422,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -16755,6 +16508,156 @@ Transform:
   - {fileID: 1261489876}
   m_Father: {fileID: 1252608251}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &285133650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 285133653}
+  - component: {fileID: 285133652}
+  - component: {fileID: 285133651}
+  m_Layer: 0
+  m_Name: ZombieWaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &285133651
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285133650}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: db5c9f8b7d903de4ba30bf964fd6aaf0, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &285133652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285133650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e107c840349725d4d895d8fca94f29f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieWaveManager
+  zombiesParaGanar: 47
+  escenaVictoria: Victory
+  techoCentral: {fileID: 61315373}
+  luzFinal: {fileID: 850344684}
+  audioFinal: {fileID: 285133651}
+  duracionDiscurso: 8
+  velocidadFade: 1.5
+  panelFadeNegro: {fileID: 0}
+--- !u!4 &285133653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285133650}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.1991, y: -0, z: 24.96097}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &285661096
 GameObject:
   m_ObjectHideFlags: 0
@@ -17594,7 +17497,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -17619,7 +17534,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -17806,7 +17721,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -17831,7 +17758,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -26763,7 +26690,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -26788,7 +26727,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -27942,7 +27881,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -27967,7 +27918,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -36053,7 +36004,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -36078,7 +36041,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -36520,7 +36483,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -36545,7 +36520,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -36892,7 +36867,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -36917,7 +36904,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -39425,97 +39412,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 233032070}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &627187952
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 627187953}
-  - component: {fileID: 627187955}
-  - component: {fileID: 627187954}
-  m_Layer: 6
-  m_Name: LockBody
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &627187953
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 627187952}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.2702538e-13, y: 1, z: 0.00000056425995, w: -0.0000002533197}
-  m_LocalPosition: {x: 0.85303694, y: -0.0845, z: -0.0515}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 952605181}
-  m_Father: {fileID: 1007290251}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!23 &627187954
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 627187952}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 4294967293
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ad3c6d6781ebe0d49a315d40f4eafeec, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &627187955
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 627187952}
-  m_Mesh: {fileID: 2873273236562491978, guid: 395b3f9b5107d154d8e9dae057b01c73, type: 3}
 --- !u!1 &627331313
 GameObject:
   m_ObjectHideFlags: 0
@@ -39934,7 +39830,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -39959,7 +39867,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -40611,7 +40519,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -40636,7 +40556,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -44408,7 +44328,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -44433,7 +44365,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -55579,7 +55511,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -55604,7 +55548,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -56679,7 +56623,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -56704,7 +56660,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -60362,96 +60318,6 @@ Transform:
   - {fileID: 2085728975}
   m_Father: {fileID: 1816016565}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &952605180
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 952605181}
-  - component: {fileID: 952605183}
-  - component: {fileID: 952605182}
-  m_Layer: 6
-  m_Name: Core
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &952605181
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 952605180}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.0063681793, z: -0.000000009536743}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 627187953}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &952605182
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 952605180}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 4294967293
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ad3c6d6781ebe0d49a315d40f4eafeec, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &952605183
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 952605180}
-  m_Mesh: {fileID: -5293335269154574413, guid: 395b3f9b5107d154d8e9dae057b01c73, type: 3}
 --- !u!1 &953443905
 GameObject:
   m_ObjectHideFlags: 0
@@ -63311,7 +63177,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -63336,7 +63214,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -64018,256 +63896,6 @@ Transform:
   - {fileID: 573364048}
   m_Father: {fileID: 127990089}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1007290250
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1007290251}
-  - component: {fileID: 1007290257}
-  - component: {fileID: 1007290256}
-  - component: {fileID: 1007290255}
-  - component: {fileID: 1007290254}
-  - component: {fileID: 1007290253}
-  - component: {fileID: 1007290252}
-  m_Layer: 6
-  m_Name: Door
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1007290251
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007290250}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.00000008742278, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.45822284, y: 1.0552604, z: 0.10499343}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 140235730}
-  - {fileID: 207074271}
-  - {fileID: 627187953}
-  m_Father: {fileID: 104351119}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1007290252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007290250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec61008361d4a9142b8295cbe1eb0e0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TriggerType: 2
-  LevelType: 1
-  NextLevelName: Elevator
-  CustomTransform: 1
-  TargetTransform: {fileID: 231211040}
-  LookUpDown: 0
---- !u!114 &1007290253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007290250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab223e6125480044db5be478636a5477, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  <InteractTime>k__BackingField: 2
-  InteractOnce: 0
-  UseResetInteract: 0
-  RequireInventoryItem: 0
-  RequiredItem:
-    m_GUID: 
-    m_Item:
-      Name: 
-      GUID: 
-      Icon: {fileID: 0}
-    m_Section:
-      Name: 
-      GUID: 
-  ShowRequireItemHint: 0
-  HintMessageTime: 2
-  HintMessage:
-    GlocText: '*A key is required to open the door'
-    NormalText: 
-  InteractSound:
-    audioClip: {fileID: 8300000, guid: 5e9516afc723b6c4ebe35d68cb77248f, type: 3}
-    volume: 0.5
-  ResetSound:
-    audioClip: {fileID: 0}
-    volume: 0
-  OnInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1007290252}
-        m_TargetAssemblyTypeName: UHFPS.Runtime.LevelInteract, Assembly-CSharp
-        m_MethodName: SwitchLevel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnReset:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1007290254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007290250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44e2230d6857bf14995464535978be6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DynamicTitle:
-    ReflectType: 0
-    Instance: {fileID: 0}
-    ReflectName: 
-    ReflectDerived: 0
-  DynamicUseTitle:
-    ReflectType: 1
-    Instance: {fileID: 0}
-    ReflectName: None
-    ReflectDerived: 0
-  DynamicExamineTitle:
-    ReflectType: 0
-    Instance: {fileID: 0}
-    ReflectName: 
-    ReflectDerived: 0
-  OverrideTitle: 1
-  OverrideUseTitle: 1
-  OverrideExamineTitle: 0
-  UseTitleDynamic: 0
-  UseUseTitleDynamic: 0
-  UseExamineTitleDynamic: 0
-  Title:
-    GlocText: '*Elevator'
-    NormalText: Door
-  TrueTitle:
-    GlocText: 
-    NormalText: 
-  FalseTitle:
-    GlocText: 
-    NormalText: 
-  UseTitle:
-    GlocText: interactions.use.hold
-    NormalText: 
-  TrueUseTitle:
-    GlocText: interactions.close
-    NormalText: Close
-  FalseUseTitle:
-    GlocText: interactions.open
-    NormalText: Open
-  ExamineTitle:
-    GlocText: 
-    NormalText: 
-  TrueExamineTitle:
-    GlocText: 
-    NormalText: 
-  FalseExamineTitle:
-    GlocText: 
-    NormalText: 
---- !u!65 &1007290255
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007290250}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.92307407, y: 2.0434453, z: 0.06970315}
-  m_Center: {x: 0.4529771, y: 0.00000023841858, z: 0}
---- !u!23 &1007290256
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007290250}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 4294967293
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ad3c6d6781ebe0d49a315d40f4eafeec, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1007290257
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007290250}
-  m_Mesh: {fileID: 2619086233303812490, guid: 395b3f9b5107d154d8e9dae057b01c73, type: 3}
 --- !u!1 &1007474421
 GameObject:
   m_ObjectHideFlags: 0
@@ -67116,7 +66744,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -67141,7 +66781,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -67360,7 +67000,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -67385,7 +67037,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -71986,7 +71638,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 104351119}
   - {fileID: 231211040}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -74347,7 +73998,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -74372,7 +74035,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -76089,96 +75752,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1 &1208460104
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1208460105}
-  - component: {fileID: 1208460107}
-  - component: {fileID: 1208460106}
-  m_Layer: 6
-  m_Name: Core
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1208460105
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208460104}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.0063681793, z: -0.000000009536743}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 207074271}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1208460106
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208460104}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 4294967293
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ad3c6d6781ebe0d49a315d40f4eafeec, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1208460107
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208460104}
-  m_Mesh: {fileID: -5293335269154574413, guid: 395b3f9b5107d154d8e9dae057b01c73, type: 3}
 --- !u!1 &1210425318
 GameObject:
   m_ObjectHideFlags: 0
@@ -79451,7 +79024,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -79476,7 +79061,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -85077,7 +84662,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -85102,7 +84699,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -87749,7 +87346,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -87774,7 +87383,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -90846,7 +90455,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -90871,7 +90492,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -95319,7 +94940,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -95344,7 +94977,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -99079,7 +98712,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -99104,7 +98749,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -100447,7 +100092,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -100472,7 +100129,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -104898,7 +104555,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -104923,7 +104592,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -107844,6 +107513,68 @@ Transform:
   m_Children:
   - {fileID: 569629868}
   m_Father: {fileID: 1348462928}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1736125249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736125251}
+  - component: {fileID: 1736125250}
+  m_Layer: 0
+  m_Name: GuardianAudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1736125250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736125249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c357c730807917142ab4264f184fa517, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  clips:
+  - {fileID: 8300000, guid: 3884c5b6ea0855842ac1156f69499e2f, type: 3}
+  - {fileID: 8300000, guid: c52b5c2d17dc19e4081136a8d05a2563, type: 3}
+  - {fileID: 8300000, guid: df21e795ff55eb64e93258c870cc7a6d, type: 3}
+  - {fileID: 8300000, guid: 5ef9be52c5401fe49ae455d482d930e5, type: 3}
+  - {fileID: 8300000, guid: 600c8b67ad844f442bf5b67a37eda973, type: 3}
+  - {fileID: 8300000, guid: 6b2fa838548d0ed4aae17aa553dc189e, type: 3}
+  - {fileID: 8300000, guid: 84ed4210108888a449ff54b5cf79a54e, type: 3}
+  - {fileID: 8300000, guid: daa0ebcc4254d2d418289b0588fbfe8c, type: 3}
+  - {fileID: 8300000, guid: 0fff76a2314672246b3ec0658c6d96f9, type: 3}
+  - {fileID: 8300000, guid: b4ccb9814143a254da0d6b2a8c81d3b7, type: 3}
+  - {fileID: 8300000, guid: d02b57c565a3e3447be3d055dd19845d, type: 3}
+  - {fileID: 8300000, guid: 48061bb7b5d29624ea87d7a9a2361001, type: 3}
+  - {fileID: 8300000, guid: 91f666186c60d854ba41e0eea25df7d4, type: 3}
+  - {fileID: 8300000, guid: c7cf767ac6154c04caf9c9701c0e4bea, type: 3}
+  - {fileID: 8300000, guid: 89375147255d1b74dafaf962d0fa7d23, type: 3}
+  - {fileID: 8300000, guid: f44b3f9ab25be9a4882eca1a45c5a048, type: 3}
+  volume: 1
+--- !u!4 &1736125251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736125249}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.13163, y: 0, z: 27.39817}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1736140061
 GameObject:
@@ -114048,7 +113779,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -114073,7 +113816,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -115652,7 +115395,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -115677,7 +115432,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -116974,7 +116729,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -116999,7 +116766,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -126220,7 +125987,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -126245,7 +126024,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -129284,7 +129063,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -129309,7 +129100,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -129496,7 +129287,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -129521,7 +129324,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -142265,7 +142068,7 @@ MonoBehaviour:
   - Token: RainingSet.ffbd7b9ef2d7cff4f9275b9e09216f2f
     Instance: {fileID: 896729993}
   - Token: TimedInteractEvent.5bf05a7d33184ac46affb8e7564b841d
-    Instance: {fileID: 1007290253}
+    Instance: {fileID: 0}
   runtimeSaveables: []
 --- !u!1 &227294482155965376
 GameObject:
@@ -208194,7 +207997,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -208320,7 +208123,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -208465,7 +208280,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -208490,7 +208317,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -208616,7 +208443,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -208641,7 +208480,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -208766,7 +208605,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -208836,7 +208687,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -208981,7 +208832,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -209006,7 +208869,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -209110,7 +208973,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -209180,7 +209055,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -209304,7 +209179,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -209329,7 +209216,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -209442,7 +209329,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -209523,7 +209410,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -209591,7 +209490,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -209717,7 +209616,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -209765,7 +209676,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -209846,7 +209757,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -209935,7 +209858,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -210061,7 +209984,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -210130,7 +210065,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -210211,7 +210146,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -210258,7 +210205,7 @@ MonoBehaviour:
     m_Bits: 5
   NPCType: 0
   SightsFOV: 179
-  SightsDistance: 100
+  SightsDistance: 1000
   SteeringSpeed: 6
   ShowDestination: 1
   ShowSights: 1
@@ -210384,7 +210331,19 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 285133652}
+        m_TargetAssemblyTypeName: ZombieWaveManager, Assembly-CSharp
+        m_MethodName: RegistrarZombieMuerto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
@@ -221605,6 +221564,7 @@ GameObject:
   - component: {fileID: 1175790127506891100}
   - component: {fileID: 4246982037409166093}
   - component: {fileID: 8481219371930229449}
+  - component: {fileID: 8481219371930229450}
   m_Layer: 3
   m_Name: HEROPLAYER
   m_TagString: Player
@@ -281276,6 +281236,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1d07b78e31ad1b419846f0b1dc0628a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerItemsFix
+--- !u!114 &8481219371930229450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4830866528875193468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fba82a8e83f7d1d46a4dc8fea86f2513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDeathDetector
 --- !u!1 &8481435356330776238
 GameObject:
   m_ObjectHideFlags: 0
@@ -293589,3 +293561,5 @@ SceneRoots:
   - {fileID: 294896866}
   - {fileID: 295156712}
   - {fileID: 13000730}
+  - {fileID: 1736125251}
+  - {fileID: 285133653}
