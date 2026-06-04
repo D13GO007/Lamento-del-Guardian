@@ -6,6 +6,12 @@ Universidad Santiago de Cali · Facultad de Ingeniería · Ingeniería de Sistem
 
 ---
 
+## Descargar y Jugar
+
+📦 **[Descargar Ejecutable v1.0 (Google Drive)](https://drive.google.com/file/d/1RWSPArHp91VTxHiLkEXUa6FBZkjofrGr/view?usp=sharing)** · Solo Windows 64-bit · ~2.45 GB
+
+---
+
 ## Repositorio
 
 🔗 [https://github.com/D13GO007/Lamento-del-Guardian](https://github.com/D13GO007/Lamento-del-Guardian)

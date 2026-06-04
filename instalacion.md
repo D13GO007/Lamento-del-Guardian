@@ -14,9 +14,15 @@
 
 ## Opción 1 — Ejecutar el Build (.exe)
 
-Si tienes el ejecutable compilado:
+### Descargar el ejecutable
 
-1. Descarga la carpeta del build
+📦 **[Descargar Lamento del Guardián v1.0 (Google Drive)](https://drive.google.com/file/d/1RWSPArHp91VTxHiLkEXUa6FBZkjofrGr/view?usp=sharing)**
+
+> Tamaño: ~2.45 GB · Solo Windows 64-bit
+
+### Pasos
+
+1. Descarga el `.zip` desde el link de arriba
 2. Extrae el archivo `.zip`
 3. Ejecuta `LamentoDelGuardian.exe`
 4. No requiere instalación adicional
